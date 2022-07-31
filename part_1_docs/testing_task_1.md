@@ -18,37 +18,35 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    # 1. missing == instead of just = before 1:
+    # 1. Missing '==' instead of just '=' before 1:
     if card.value = 1:
       return True
-      #2.  missing : to else
+      #2.  Missing ':' to else
     else
       return False
    
-# 1. typo error, def instead of dif before highest_card() method.
-# 2. between card1 and card2 we need to insert a coma ','
-
+# 1. Typo error, def instead of dif before highest_card() method.
+# 2. Between card1 and card2 we need to insert a coma ','.
   dif highest_card(self, card1 card2):
-  # bad indentation in if else statement
+  # Bad indentation in if else statement
   if card1.value > card2.value:
-    # 3. card is not declared
-    # 4. the most logical is return card1 variable
+    # 3. card is not declared in this function.
+    # 4. The most logical is return card1 variable.
     return card
   else:
     return card2
   
 
-
+# 1. Bad indentation of this method.
 def cards_total(self, cards):
+  # 2. total is not initialised. 
   total
   for card in cards:
-    # 1. there is nothing called 'value' in a dictionary, 
-    # but a values() method yes.
     total += card.value
-    # 2. total is a number and can not be linked to a string and:
-    # 3. the return statement is placed in wrong place,
+    # 3. The return statement is placed in wrong place,
     # because it is not going to count the total number,
     # it will store only the first value of the array.
+    # 4. We can not link one string with a number 'total'.
     return "You have a total of" + total
   
 ```
