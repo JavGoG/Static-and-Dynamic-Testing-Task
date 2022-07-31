@@ -29,8 +29,10 @@ class CardGame:
 # 2. between card1 and card2 we need to insert a coma ','
 
   dif highest_card(self, card1 card2):
+  # bad indentation in if else statement
   if card1.value > card2.value:
     # 3. card is not declared
+    # 4. the most logical is return card1 variable
     return card
   else:
     return card2
